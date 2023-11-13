@@ -6,3 +6,13 @@
 .nav-link-image {
   width: 100%;
 }
+
+.special {
+  display: none;
+}
+
+@media (width <= 1400px) {
+  .special {
+    display: initial;
+  }
+}

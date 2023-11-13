@@ -19,3 +19,24 @@
   bottom: 0;
   right: 0;
 }
+
+@media (width <= 730px) {
+  .nav {
+    top: 0;
+    left: 0;
+    bottom: initial;
+    right: initial;
+  }
+}
+
+@media (width <= 600px) {
+  .header {
+    background-position: calc(100% - 6%) 0;
+  }
+}
+
+@media (width <= 500px) {
+  .header {
+    background-position: calc(100% - 8%);
+  }
+}
