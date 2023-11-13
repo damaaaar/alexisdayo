@@ -1,0 +1,13 @@
+:root {
+  --primary-color: #17212a;
+  --font-color: #ffffff;
+  --title: "Oswald", sans-serif;
+  --subtitle: "Caveat", cursive;
+  --primary-font: "Inter", sans-serif;
+}
+
+body {
+  background: var(--primary-color);
+  color: var(--font-color);
+  font-family: var(--primary-font);
+}
